@@ -24,7 +24,7 @@
         $sql = "SELECT * FROM curde";
         $result = mysqli_query($conn, $sql);
         $data = mysqli_fetch_all($result, MYSQLI_ASSOC);//Fetch a result row as an associative array
-        print_r ($data);
+        // print_r ($data);
      }
     //  var_dump($_SESSION); 
     ?>
